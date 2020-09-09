@@ -8,6 +8,6 @@ if html_response.status_code == requests.codes.not_found:
 
 elif html_response.status_code == requests.codes.ok:
     with open('pyatl.index.html', 'w') as f:
-        f.write(teml_response.text)
+        f.write(html_response.text)
     
 
