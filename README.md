@@ -19,3 +19,10 @@ Windows:
 Install dependencies:
 
 `pip install -r requirements.txt`
+
+
+
+
+COMPUTER ---------- request -------> SERVER
+
+SERVER --------- response --------> COMPUTER
