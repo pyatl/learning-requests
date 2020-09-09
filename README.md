@@ -1,6 +1,8 @@
 # learning-requests
 Learning the requests library
 
+https://requests.readthedocs.io/en/latest/user/quickstart/
+
 
 ### Setup
 
