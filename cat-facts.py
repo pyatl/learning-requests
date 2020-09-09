@@ -10,6 +10,7 @@ class CatFact:
         return f'{self.id} - {self.text} \n'
 
 
+# https://alexwohlbruck.github.io/cat-facts/docs/
 api_url = 'https://cat-fact.herokuapp.com'
 
 def get_facts():
@@ -26,5 +27,3 @@ for fact in facts:
 with open('cat-facts.txt', 'w') as f:
     for cat_fact in cat_facts:
         f.write(cat_fact.to_txt())
-
-
